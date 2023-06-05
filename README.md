@@ -22,7 +22,7 @@ All through the following steps:
 # Hardware schematics
 The following photograph shows the hardware scheme of our robot, which also uses a camera to recognize the bottles to choose.
 ![hardwareScheme](https://github.com/murtion/coctelbot/blob/main/Esquema%20HW.png)
-
+![P1](https://github.com/murtion/coctelbot/blob/main/3D/brazo/files/EBAmk2_015_claw_finger_dx.STL)
 
 
 
