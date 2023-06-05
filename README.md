@@ -17,6 +17,7 @@ All through the following steps:
 - Camera  Raspberri pi Module 3, IMX708
 - SER0038
 - Ser0039
+- screen tft_320QVT_9341
 
 # Hardware schematics
 The following photograph shows the hardware scheme of our robot, which also uses a camera to recognize the bottles to choose.
