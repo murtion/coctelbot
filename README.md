@@ -12,17 +12,16 @@ All through the following steps:
 4. The cup glass is taken
 
 # Electronic components
-- PWM controller 16 channels I2C
+- [PWM controller 16 channels I2C]
 - Rasberry Pi Zero
 - Camera  Raspberri pi Module 3, IMX708
 - SER0038
-- Ser0039
-- screen tft_320QVT_9341
+- SER0039
+- Screen tft_320QVT_9341
 
 # Hardware schematics
 The following photograph shows the hardware scheme of our robot, which also uses a camera to recognize the bottles to choose.
 ![hardwareScheme](https://github.com/murtion/coctelbot/blob/main/Esquema%20HW.png)
-![P1](https://github.com/murtion/coctelbot/blob/main/3D/brazo/files/EBAmk2_015_claw_finger_dx.STL)
 
 
 
