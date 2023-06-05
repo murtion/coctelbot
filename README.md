@@ -13,22 +13,22 @@ All through the following steps:
 
 # Electronic components
 ![PWM](https://github.com/murtion/coctelbot/blob/main/Components/PWM%20controller%2016%20channels%20I2C.jpg)
-- PWM controller 16 channels I2C
+- *PWM controller 16 channels I2C*
 
 ![RPZ](https://github.com/murtion/coctelbot/blob/main/Components/Rasberry%20Pi%20Zero.jpg)
-- Rasberry Pi Zero
+- *Rasberry Pi Zero*
 
 ![Cam](https://github.com/murtion/coctelbot/blob/main/Components/Camera.jpg)
-- Camera  Raspberri pi Module 3, IMX708
+- *Camera  Raspberri pi Module 3, IMX708*
 
 ![S38](https://github.com/murtion/coctelbot/blob/main/Components/SER0038.jpg)
-- SER0038
-- 
+- *SER0038*
+
 ![S39](https://github.com/murtion/coctelbot/blob/main/Components/SER0039.jpg)
-- SER0039
+- *SER0039*
 
 ![SCR](https://github.com/murtion/coctelbot/blob/main/Components/Screen.jpg)
-- Screen tft_320QVT_9341
+- *Screen tft_320QVT_9341*
 
 # Hardware schematics
 The following photograph shows the hardware scheme of our robot, which also uses a camera to recognize the bottles to choose.
