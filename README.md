@@ -18,6 +18,7 @@ All through the following steps:
 ![RPZ](https://github.com/murtion/coctelbot/blob/main/Components/Rasberry%20Pi%20Zero.jpg)
 - *Rasberry Pi Zero*
 
+
 ![Cam](https://github.com/murtion/coctelbot/blob/main/Components/Camera.jpg)
 - *Camera  Raspberri pi Module 3, IMX708*
 
