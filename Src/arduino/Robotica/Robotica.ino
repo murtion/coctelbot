@@ -53,22 +53,38 @@ void setup()
 
 void loop()
 {
+  bool final = false;
   int stateButton1 = digitalRead(pinButton1);
   int stateButton2 = digitalRead(pinButton2);
   int stateButton3 = digitalRead(pinButton3);
   
   if((stateButton1 == 0) && (stateButton2 == 1) && (stateButton3 == 1))
   {
-    Serial.print("1");
+    Serial.println("1");
+    myGLCD.clrScr();
+    myGLCD.print("Bebida en preparacion", 110, 90, 87);
+    while(final == false)
+    {
+      if (Serial.available() > 0) {
+        char dato = Serial.read();
+        if(dato = "f")
+        {
+          final = true;
+          myGLCD.clrScr();
+          myGLCD.print("Bebida lista", 110, 90, 87);
+        }
+       }
+        
+      }
   }
 
   else if((stateButton1 == 1) && (stateButton2 == 0) && (stateButton3 == 1))
   {
-    Serial.print("2");
+    Serial.println("2");
   }
 
   else if((stateButton1 == 1) && (stateButton2 == 1) && (stateButton3 == 0))
   {
-    Serial.print("3");
+    Serial.println("3");
   }
 }
